@@ -49,15 +49,15 @@
           		</a>
           		<ul class="nav nav-treeview" style="display: none;">
           			<li class="nav-item">
-          				<a href="../../index.html" class="nav-link">
+          				<a href="<?=base_url()?>" class="nav-link">
           					<i class="fa fa-circle-o nav-icon"></i>
           					<p>Perfil</p>
           				</a>
           			</li>
           			<li class="nav-item">
-          				<a href="../../index2.html" class="nav-link">
+          				<a href="<?=base_url('/usuarios')?>" class="nav-link">
           					<i class="fa fa-circle-o nav-icon"></i>
-          					<p>Configurações</p>
+          					<p>Usuários</p>
           				</a>
           			</li>
           		</ul>
