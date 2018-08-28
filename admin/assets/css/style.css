@@ -1,0 +1,29 @@
+a { color: #6c757d; }
+a:hover { color: #000; }
+p.alert.alert-danger,
+p.alert.alert-success {
+	margin: 10px 2px;
+}
+.newproduct {
+	margin-bottom: 15px;
+}
+a.btn.btn-success.newproduct i {
+	padding-right: 8px;
+}
+.card-header>.card-tools {
+	position: absolute;
+	right: 0.5rem;
+	top: .5rem;
+}
+.form-group label {
+	margin: 10px 0 5px 0;
+}
+.form-group button.btn.btn-success {
+	margin-top: 20px;
+}
+.card-primary:not(.card-outline) .card-header {
+	background-color: #007bff6e;
+}
+.table-hover tbody tr:first-child:hover {
+	background: #fff;
+}
