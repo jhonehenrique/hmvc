@@ -27,3 +27,17 @@ a.btn.btn-success.newproduct i {
 .table-hover tbody tr:first-child:hover {
 	background: #fff;
 }
+.wrapper .bg-white {
+    background-color: #008cff!important;
+}
+
+.wrapper .navbar-light .navbar-nav .nav-link,
+.wrapper ul.navbar-nav.ml-auto li a {
+    color: #fff;
+}
+
+[class*=sidebar-dark] .brand-link {
+    color: #fff;
+    border-bottom: 0;
+    background: #008cff;
+}

@@ -51,5 +51,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'painel';
 $route['404_override'] = '';
+
+//$route['formulario'] = 'inicial/formulario';
+$route['produto/(:num)'] = 'produtos/mostra/$1';
+
 $route['translate_uri_dashes'] = TRUE;
 $route['cadastre-se'] = 'painel/cadastro';
+

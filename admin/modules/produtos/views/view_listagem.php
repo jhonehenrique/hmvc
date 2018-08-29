@@ -17,7 +17,7 @@
         </div><!-- /.container-fluid -->
       </section>
       <!-- Main content -->
-      <div class="col-md-12 text-right"><a class="btn btn-success newproduct" href="<?=base_url('produtos/formulario')?>"><i class="fa fa-plus" aria-hidden="true"></i>Adicionar</a></div>
+      <div class="col-md-12 text-right"><a class="btn btn-success newproduct" href="<?=base_url('produtos/manutencao')?>"><i class="fa fa-plus" aria-hidden="true"></i>Adicionar</a></div>
 
       <div class="col-12">
         <div class="card">
@@ -54,7 +54,7 @@
              
               <tr>
                 <td><?=$value["id"]?></td>
-                <td><?=$value["titulo"]?></td>
+                <td><?=anchor("produto/{$value['id']}", $value["titulo"])?></td>
                 <td><?=numeroEmReais($value["preco"]);?></td>
               </tr>
                <?php endforeach ?>
@@ -64,3 +64,4 @@
       </div>
     </div>
     <!-- /.content-wrapper -->
+
