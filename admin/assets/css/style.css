@@ -4,9 +4,6 @@ p.alert.alert-danger,
 p.alert.alert-success {
 	margin: 10px 2px;
 }
-.newproduct {
-	margin-bottom: 15px;
-}
 a.btn.btn-success.newproduct i {
 	padding-right: 8px;
 }
@@ -40,4 +37,44 @@ a.btn.btn-success.newproduct i {
     color: #fff;
     border-bottom: 0;
     background: #008cff;
+}
+table.table button {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+table.table button i{
+    color: #fff;
+}
+.card-body.p-0 .table tbody>tr>td:last-of-type, 
+.card-body.p-0 .table tbody>tr>th:last-of-type, 
+.card-body.p-0 .table thead>tr>td:last-of-type, 
+.card-body.p-0 .table thead>tr>th:last-of-type, 
+.pr-4, .px-4 {
+    padding-right: 0.3rem !important;
+}
+
+.card-footer ul li {
+    display: inline-block;
+}
+.card-footer ul {
+    float: right;
+    margin-top: 16px;
+}
+
+.mb-2, .my-2, .progress-group {
+    margin-top: 0.5rem;
+}
+.content-header .breadcrumb {
+    line-height: 2rem;
+}
+.newproduct {
+    margin-bottom: 10px;
+}
+h1.titlemiddle {
+    position: relative;
+    top: 23px;
 }

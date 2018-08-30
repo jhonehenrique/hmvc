@@ -26,7 +26,7 @@
 			<aside class="main-sidebar sidebar-dark-primary elevation-4" style="min-height: 917px;">
 				<!-- Brand Logo -->
 				<a href="<?=base_url()?>" class="brand-link">
-					<span class="brand-text font-weight-light">ADMINISTRADOR</span>
+					<span class="brand-text font-weight-light">LOGO</span>
 				</a>
 				<!-- Sidebar -->
 				<div class="sidebar">
